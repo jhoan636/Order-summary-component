@@ -1,0 +1,49 @@
+.contenido {
+  padding: 10%;
+}
+
+.contenido p, h1 {
+  text-align: center;
+  color: hsl(223, 47%, 23%);
+}
+
+.contenido h1 {
+  margin-bottom: 5%;
+  font-size: 35px;
+}
+
+.contenido p {
+  font-size: 18px;
+  color: hsl(224, 23%, 55%);
+  line-height: 35px;
+  margin-bottom: 5%;
+}
+
+.plan {
+  border-radius: 15px;
+  padding: 5%;
+  background: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7%;
+}
+.plan-img img {
+  height: 60px;
+}
+
+.annual-plan h2 {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.annual-plan p {
+  margin: 0;
+  font-size: 17px;
+}
+
+.change a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+

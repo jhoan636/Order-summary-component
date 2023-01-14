@@ -1,0 +1,30 @@
+.botones {
+  width: 100%;
+  text-align: center;
+}
+.botones button {
+  border-radius: 15px;
+  background-color: hsl(245, 75%, 52%); /* Green */
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 30px;
+  padding: 17px 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, hsl(245, 75%, 52%) 0px 8px 16px -8px;}
+
+.botones a {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.botones button:hover {
+  background-color: hsl(245, 75%, 52%, 0.7); /* Green */
+}
+
+.botones a:hover {
+  color: hsl(223, 47%, 23%, 0.9); /* Green */
+}
